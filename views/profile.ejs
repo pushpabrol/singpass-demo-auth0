@@ -1,0 +1,8 @@
+<%- include('partials/header') -%>
+
+  <h1 class="text-4xl mb-4">User ID from Singpass <%= user.sub.split("|")[2] %></h1>
+
+
+  <pre class="block bg-gray-300 p-4 text-sm overflow-scroll"><%= userProfile %></pre>
+
+<%- include('partials/footer') -%>
